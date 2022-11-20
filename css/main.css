@@ -1,0 +1,110 @@
+
+
+
+/**
+*  1. Site structure
+*/
+body {
+    font-size: 10px;
+    font-family: Arial,Helvetica,sans-serif;
+    padding: 0;
+    margin: 0;
+}
+/*
+#webpage-container{
+    width: 100vw;
+    height: 100vh;
+}*/
+
+.row{
+    width: 972px !important;
+    margin: 0 auto !important;
+}
+
+.row.end {
+    align-items: flex-end;
+}
+.container-xxl{
+    max-width: none !important;
+}
+
+a{
+    text-decoration: none!important;
+}
+/**
+*  1.1 Header
+*/
+.bg-header{
+    background-image: url("../assets/top_bar.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#desc_head{
+    margin: 38px 0px 20px;
+}
+
+
+/**
+*  1.2 Footer
+*/
+.drop{
+    background-image: url("../assets/bottom_bar.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff;
+}
+.bg-footer{
+    background-image: url("../assets/bottom_bar.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff;
+}
+._19Zgu{
+    background-color: #9b1043;
+    border: solid;
+    cursor: pointer!important;
+    border-radius: 15px;
+    text-align: initial;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    width: max-content;
+    border-color: #fff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 5px 30px;
+    justify-content: center;
+    min-height: 26px;
+    box-shadow: 0px 0px 1px 4px rgba(255,255,255,.2);
+}
+._19Zgu:hover{
+
+    background-color: #fe6061;
+}
+._1fbEI {
+    background-color: #fe6061;
+    border: solid;
+    cursor: pointer!important;
+    border-radius: 15px;
+    text-align: initial;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    width: max-content;
+    border-color: #fff;
+    margin: 0 auto;
+    justify-content: center;
+    min-width: 130px;
+    min-height: 26px;
+    box-shadow: 0px 0px 1px 4px rgba(255,255,255,.2);
+}
+
+._1fbEI:hover {
+    background-color: #ff1052;
+}
